@@ -52,6 +52,7 @@
     build: {
       target: 'esnext',
       outDir: 'build',
+      chunkSizeWarningLimit: 1600
     },
     server: {
       port: 3000,
